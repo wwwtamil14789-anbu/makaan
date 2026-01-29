@@ -22,7 +22,7 @@ import Addproperty from "./pages/Addproperty";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/makaan">
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
