@@ -21,41 +21,7 @@ import h3 from './imgs/testimonial-3.jpg';
 const Propertyagent  = () => {
     return (
         <>
-        <section class="agent-section py-5">
-                <div class="container">
-                    <div class="agent-box p-4 p-lg-5">
-                        <div class="row align-items-center">
-
-                            {/* <!-- Image --> */}
-                            <div class="image col-lg-6 mb-4 mb-lg-0">
-                                <img src={f1} class="img-fluid rounded-3" alt="Agent" />
-                            </div>
-
-                            {/* <!-- Content --> */}
-                            <div class="agent-content">
-                                <h1>Contact With Our Certified <br /> Agent</h1>
-                                <p>
-                                    Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum <br />
-                                    sit sit diam justo sed vero dolor duo.
-                                </p>
-
-
-                                <div class="agent-buttons">
-                                    <a href="#" class="btn-call">
-                                        <i class="fa-solid fa-phone"></i>
-                                        Make A Call
-                                    </a>
-
-                                    <a href="#" class="btn-appointment">
-                                        <i class="fa-solid fa-calendar-days"></i>
-                                        Get Appointment
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section >
+        
 
 
             <section class="py-5">
@@ -138,6 +104,42 @@ const Propertyagent  = () => {
                     </div>
                 </div>
             </section>
+
+            <section class="agent-section py-5">
+                <div class="container">
+                    <div class="agent-box p-4 p-lg-5">
+                        <div class="row align-items-center">
+
+                            {/* <!-- Image --> */}
+                            <div class="image col-lg-6 mb-4 mb-lg-0">
+                                <img src={f1} class="img-fluid rounded-3" alt="Agent" />
+                            </div>
+
+                            {/* <!-- Content --> */}
+                            <div class="agent-content">
+                                <h1>Contact With Our Certified <br /> Agent</h1>
+                                <p>
+                                    Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum <br />
+                                    sit sit diam justo sed vero dolor duo.
+                                </p>
+
+
+                                <div class="agent-buttons">
+                                    <a href="#" class="btn-call">
+                                        <i class="fa-solid fa-phone"></i>
+                                        Make A Call
+                                    </a>
+
+                                    <a href="#" class="btn-appointment">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        Get Appointment
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section >
 
 
             <section class="py-5 bg-white">
