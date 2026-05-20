@@ -1,3 +1,23 @@
+import e1 from './imgs/property-1.jpg';
+import e2 from './imgs/property-2.jpg';
+import e3 from './imgs/property-3.jpg';
+import e4 from './imgs/property-4.jpg';
+import e5 from './imgs/property-5.jpg';
+import e6 from './imgs/property-6.jpg';
+
+
+import f1 from './imgs/call-to-action.jpg';
+
+import g1 from './imgs/team-1.jpg';
+import g2 from './imgs/team-2.jpg';
+import g3 from './imgs/team-3.jpg';
+import g4 from './imgs/team-4.jpg';
+
+import h1 from './imgs/testimonial-1.jpg';
+import h2 from './imgs/testimonial-2.jpg';
+import h3 from './imgs/testimonial-3.jpg';
+
+
 const Propertyagent  = () => {
     return (
         <>
