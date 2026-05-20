@@ -57,6 +57,53 @@
   height: 120%;
 }
 
+.title {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    z-index: 2;
+}
+
+.title h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #1f252e;
+    font-family: Arial, sans-serif;
+}
+
+.aboutpage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f2f2f2;
+    overflow: hidden;
+    position: relative;
+}
+
+.aboutpage h2 {
+    position: absolute;
+    top: 52%;
+    left: 11%;
+    
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    color: #1f252e;
+}
+
+.aboutpage span {
+    color: #00b894;
+}
+
+.aboutpage img {
+    width: 45%;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: auto;
+}
+
 .search-section {
   background: #00b985;
   padding: 30px 0;

@@ -55,7 +55,7 @@ const Layout = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="btn btn-success px-3 d-none d-lg-flex" to="/add-property">Add Property</Link>
+                <Link className="btn btn-success px-3 d-none d-lg-flex" to="" >Add Property</Link>
               </li>
             </ul>
           </div>

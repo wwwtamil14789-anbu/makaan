@@ -12,7 +12,15 @@ import e6 from './imgs/property-6.jpg';
 const About = () => {
     return (
         <>
-        
+            <div className='title'>
+                <h1>About</h1>
+                <br/>
+                <br/>
+            </div>
+            <div className='aboutpage'>
+                <h2><span>Home</span>/<span>pages</span>/ About</h2>
+                <img src={b1}></img> 
+            </div>
 
             <div className="search-section">
                 <div className="container">
@@ -49,41 +57,41 @@ const About = () => {
             </div>
 
             <div class="find-property-section py-5">
-                        <div class="container">
-                            <div class="row align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
 
-                                {/* <!-- Image Column --> */}
-                                <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
-                                    <div class="green-shape"></div>
-                                    <img src={d1} alt="" />
-                                </div>
-
-                                {/* <!-- Content Column --> */}
-                                <div class="col-lg-6">
-                                    <h1 class="fw-bold mb-4">
-                                        #1 Place To Find The Perfect <br /> Property
-                                    </h1>
-
-                                    <p class="text-muted mb-4">
-                                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore
-                                        erat amet.
-                                    </p>
-
-                                    <ul class="list-unstyled property-list mb-4">
-                                        <li><i class="fa-solid fa-check"></i> Tempor erat elitr rebum at clita</li>
-                                        <li><i class="fa-solid fa-check"></i> Aliqu diam amet diam et eos</li>
-                                        <li><i class="fa-solid fa-check"></i> Clita duo justo magna dolore erat amet</li>
-                                    </ul>
-
-                                    <button class="btn btn-success px-4 py-2"><i class="fa-solid fa-angles-right"></i> Read More</button>
-                                </div>
-
-                            </div>
+                        {/* <!-- Image Column --> */}
+                        <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+                            <div class="green-shape"></div>
+                            <img src={d1} alt="" />
                         </div>
-                    </div>
 
-                    <footer class="footer pt-5">
+                        {/* <!-- Content Column --> */}
+                        <div class="col-lg-6">
+                            <h1 class="fw-bold mb-4">
+                                #1 Place To Find The Perfect <br /> Property
+                            </h1>
+
+                            <p class="text-muted mb-4">
+                                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                                eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore
+                                erat amet.
+                            </p>
+
+                            <ul class="list-unstyled property-list mb-4">
+                                <li><i class="fa-solid fa-check"></i> Tempor erat elitr rebum at clita</li>
+                                <li><i class="fa-solid fa-check"></i> Aliqu diam amet diam et eos</li>
+                                <li><i class="fa-solid fa-check"></i> Clita duo justo magna dolore erat amet</li>
+                            </ul>
+
+                            <button class="btn btn-success px-4 py-2"><i class="fa-solid fa-angles-right"></i> Read More</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer pt-5">
                 <div class="container">
                     <div class="row g-5">
 
