@@ -1,3 +1,5 @@
+import b1 from './imgs/carousel-1.jpg';
+
 import e1 from './imgs/property-1.jpg';
 import e2 from './imgs/property-2.jpg';
 import e3 from './imgs/property-3.jpg';
@@ -18,11 +20,53 @@ import h2 from './imgs/testimonial-2.jpg';
 import h3 from './imgs/testimonial-3.jpg';
 
 
-const Propertyagent  = () => {
+const Propertyagent = () => {
     return (
         <>
-        
 
+            <div className='title'>
+                <h1>Property Agents</h1>
+                <br />
+                <br />
+            </div>
+            <div className='aboutpage'>
+                <h2><span>Home</span>/<span>pages</span>/ PropertyAgents</h2>
+                <img src={b1}></img>
+            </div>
+
+            <div className="search-section">
+                <div className="container">
+                    <div className="row g-3 align-items-center">
+
+                        <div className="col-md-3">
+                            <input type="text" className="form-control search-input" placeholder="Search Keyword" />
+                        </div>
+
+                        <div className="col-md-3">
+                            <select className="form-select search-input">
+                                <option selected>Property Type</option>
+                                <option>Apartment</option>
+                                <option>House</option>
+                                <option>Villa</option>
+                            </select>
+                        </div>
+
+                        <div className="col-md-3">
+                            <select className="form-select search-input">
+                                <option selected>Location</option>
+                                <option>chennai</option>
+                                <option>Bangalore</option>
+                                <option>hyderabad</option>
+                            </select>
+                        </div>
+
+                        <div className="col-md-3">
+                            <button className="btn btn-search w-100">Search</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
             <section class="py-5">
                 <div class="container">
@@ -282,8 +326,8 @@ const Propertyagent  = () => {
                 </div>
             </footer>
 
-            </>
+        </>
 
     )
-}     
+}
 export default Propertyagent;

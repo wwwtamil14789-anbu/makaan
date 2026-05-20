@@ -59,7 +59,7 @@
 
 .title {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 12%;
     z-index: 2;
 }
@@ -84,7 +84,7 @@
 
 .aboutpage h2 {
     position: absolute;
-    top: 52%;
+    top: 42%;
     left: 11%;
     
     font-size: 30px;
@@ -99,8 +99,9 @@
 
 .aboutpage img {
     width: 45%;
-    height: 90vh;
+    height: 95vh;
     /* object-fit: cover; */
+    margin-bottom: 70px;
     margin-left: 812px;
 }
 
@@ -109,6 +110,7 @@
   padding: 30px 0;
   margin-right: 20px;
   margin-left: 60px;
+  /* margin-top: -50px; */
 }
 
 
@@ -457,6 +459,30 @@
   /* margin-right: -20px; */
   margin-top: 10px;
   margin-left: 20px;
+}
+
+/*  */
+.notfound-wrapper {
+  margin-top: 50px;
+  justify-content: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.error-code {
+  font-size: 120px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.error-text {
+  font-size: 19px;
+}
+
+.notfound-wrapper .btn {
+  font-weight: 500;
+  border-radius: 50px;
+  margin-right: 160px;
 }
 
 
