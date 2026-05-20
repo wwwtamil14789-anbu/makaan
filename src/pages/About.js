@@ -1,3 +1,5 @@
+import b1 from './imgs/carousel-1.jpg';
+
 import d1 from './imgs/about.jpg';
 
 import e1 from './imgs/property-1.jpg';
@@ -10,6 +12,8 @@ import e6 from './imgs/property-6.jpg';
 const About = () => {
     return (
         <>
+        
+
             <div className="search-section">
                 <div className="container">
                     <div className="row g-3 align-items-center">
