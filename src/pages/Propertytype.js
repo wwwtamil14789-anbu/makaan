@@ -1,5 +1,7 @@
 import './index.css';
 
+import b1 from './imgs/carousel-1.jpg';
+
 import c1 from './imgs/icon-apartment.png';
 import c2 from './imgs/icon-building.png';
 import c3 from './imgs/icon-condominium.png';
@@ -23,6 +25,17 @@ import e6 from './imgs/property-6.jpg';
 const Propertytype = () => {
     return (
         <>
+
+            <div className='title'>
+                <h1>Property Types</h1>
+                <br/>
+                <br/>
+            </div>
+            <div className='aboutpage'>
+                <h2><span>Home</span>/<span>pages</span>/ PropertyTypes</h2>
+                <img src={b1}></img> 
+            </div>
+
             {/* property type */}
 
             < div class="property-type-section py-5" >

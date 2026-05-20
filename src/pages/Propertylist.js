@@ -1,3 +1,5 @@
+import b1 from './imgs/carousel-1.jpg';
+
 import e1 from './imgs/property-1.jpg';
 import e2 from './imgs/property-2.jpg';
 import e3 from './imgs/property-3.jpg';
@@ -10,6 +12,16 @@ import f1 from './imgs/call-to-action.jpg';
 const Propertylist = () => {
     return (
         <>
+            <div className='title'>
+                <h1>Property List</h1>
+                <br/>
+                <br/>
+            </div>
+            <div className='aboutpage'>
+                <h2><span>Home</span>/<span>pages</span>/ PropertyList</h2>
+                <img src={b1}></img> 
+            </div>
+
              <div class="container py-5">
 
                 {/* <!-- Header --> */}
