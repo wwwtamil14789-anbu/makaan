@@ -589,3 +589,358 @@
 .footer span{
   color: white;
 }
+
+/* Responsive styles */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.nav-link {
+  font-weight: 450;
+}
+
+@media (max-width: 1199px) {
+  .navbar {
+    width: 92%;
+  }
+
+  .leftside-1 h2,
+  .leftside-2 p,
+  .btn {
+    margin-left: 70px;
+  }
+
+  .rightside-1 img,
+  .rightside-2 img {
+    width: 520px;
+  }
+
+  .rightside-2 img {
+    margin-left: 45%;
+  }
+
+  .aboutpage img {
+    margin-left: 55%;
+    width: 45%;
+  }
+
+  #box-8 {
+    width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    width: 94%;
+    margin-top: 20px;
+  }
+
+  .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+
+  .Home {
+    flex-direction: column;
+  }
+
+  .leftside-1 h2 {
+    margin: 50px 24px 20px;
+    font-size: 38px;
+    line-height: 1.25;
+  }
+
+  .leftside-2 p {
+    margin: 0 24px 20px;
+  }
+
+  .btn {
+    margin-left: 24px;
+  }
+
+  .rightside-1,
+  .rightside-2 {
+    display: block;
+    padding: 0 24px;
+  }
+
+  .rightside-1 img,
+  .rightside-2 img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .rightside-2 img {
+    margin-top: 30px;
+  }
+
+  .title {
+    top: 30%;
+    left: 7%;
+  }
+
+  .title h1 {
+    font-size: 42px;
+  }
+
+  .aboutpage {
+    height: 430px;
+  }
+
+  .aboutpage h2 {
+    top: 48%;
+    left: 7%;
+    font-size: 24px;
+  }
+
+  .aboutpage img {
+    width: 58%;
+    height: 100%;
+    margin: 0 0 0 auto;
+    object-fit: cover;
+  }
+
+  .search-section {
+    margin: 20px 24px 0;
+    padding: 24px 16px;
+    border-radius: 8px;
+  }
+
+  .btn-search {
+    margin-left: 0;
+    height: 42px;
+  }
+
+  #box-8 {
+    width: calc(50% - 24px);
+    margin-left: 12px;
+    padding: 24px 16px;
+  }
+
+  .find-property-section h1,
+  .find-property-section p,
+  .find-property-section .btn,
+  .property-list li {
+    margin-left: 0;
+  }
+
+  .find-property-section h1 {
+    font-size: 34px;
+  }
+
+  .find-property-section p {
+    width: 100%;
+  }
+
+  .green-shape {
+    left: 0;
+    width: 85%;
+  }
+
+  .property-heading {
+    font-size: 36px;
+  }
+
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .filter-buttons .btn {
+    margin-left: 0;
+  }
+
+  .browse-btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+  }
+
+  .agent-content h1,
+  .agent-content p,
+  .agent-buttons {
+    margin-left: 0;
+  }
+
+  .agent-content h1 {
+    margin-top: 0;
+    font-size: 34px;
+  }
+
+  .agent-content p {
+    max-width: 100%;
+  }
+
+  .testimonial-item {
+    height: auto;
+    min-height: 150px;
+    padding: 24px;
+  }
+
+  .testimonial-item p,
+  .testimonial-wrapper img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .leftside-1 h2 {
+    font-size: 32px;
+  }
+
+  .leftside-2 p {
+    font-size: 16px;
+  }
+
+  .title {
+    top: 24%;
+  }
+
+  .title h1 {
+    font-size: 34px;
+  }
+
+  .aboutpage {
+    height: 360px;
+    background: #f7fbf9;
+  }
+
+  .aboutpage h2 {
+    top: 44%;
+    font-size: 19px;
+    z-index: 3;
+  }
+
+  .aboutpage img {
+    width: 100%;
+    opacity: 0.35;
+  }
+
+  .search-section {
+    margin: 16px 12px 0;
+  }
+
+  #box-8 {
+    width: calc(100% - 24px);
+  }
+
+  .property-type-section .text-center p,
+  section .text-center p {
+    padding: 0 10px;
+  }
+
+  .find-property-section h1,
+  .property-heading,
+  .agent-content h1 {
+    font-size: 30px;
+  }
+
+  .property-text {
+    max-width: 100%;
+  }
+
+  .card-img-top {
+    height: 220px;
+  }
+
+  .agent-buttons {
+    flex-direction: column;
+  }
+
+  .agent-buttons a {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .testimonial-wrapper {
+    padding: 15px;
+  }
+
+  .footer-bottom-link {
+    display: inline-block;
+    margin: 8px 8px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .leftside-1 h2 {
+    margin: 36px 16px 16px;
+    font-size: 28px;
+  }
+
+  .leftside-2 p {
+    margin: 0 16px 18px;
+  }
+
+  .btn {
+    margin-left: 16px;
+  }
+
+  .rightside-1,
+  .rightside-2 {
+    padding: 0 16px;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .aboutpage h2 {
+    font-size: 16px;
+  }
+
+  .find-property-section h1,
+  .property-heading,
+  .agent-content h1 {
+    font-size: 26px;
+  }
+
+  .find-property-section p,
+  .property-text,
+  .agent-content p,
+  .testimonial-item p {
+    font-size: 15px;
+  }
+
+  .filter-buttons .btn {
+    width: 100%;
+  }
+
+  .browse-btn {
+    width: calc(100% - 32px);
+  }
+
+  .testimonial-item {
+    padding: 18px;
+  }
+
+  .error-code {
+    font-size: 78px;
+  }
+
+  .notfound-wrapper .btn {
+    margin-right: 0;
+  }
+
+  .footer-input {
+    padding-right: 15px;
+    height: 48px;
+  }
+
+  .footer-btn {
+    position: static;
+    width: 100%;
+    margin: 10px 0 0;
+  }
+}
