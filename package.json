@@ -1,5 +1,5 @@
 {
-  "homepage": "https://wwwtamil14789-anbu.github.io/makaan",
+  "homepage": "https://wwwtamil14789-anbu.github.io/makaan/",
   "name": "makaan",
   "version": "0.1.0",
   "private": true,
@@ -46,3 +46,7 @@
     "gh-pages": "^6.3.0"
   }
 }
+
+
+git commit -m "github pages updated"
+git push origin main
