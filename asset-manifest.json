@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/makaan/static/css/main.031e87d0.css",
-    "main.js": "/makaan/static/js/main.b358f1e2.js",
+    "main.css": "/makaan/static/css/main.9ea60d78.css",
+    "main.js": "/makaan/static/js/main.25ae972e.js",
     "static/media/about.jpg": "/makaan/static/media/about.34742c406645c386b134.jpg",
     "static/media/carousel-1.jpg": "/makaan/static/media/carousel-1.1297b20051c65b561db7.jpg",
     "static/media/carousel-2.jpg": "/makaan/static/media/carousel-2.335bdd28bfa9505b60a8.jpg",
@@ -14,11 +14,11 @@
     "static/media/property-6.jpg": "/makaan/static/media/property-6.3c4084344ebdbbd08f89.jpg",
     "static/media/team-1.jpg": "/makaan/static/media/team-1.659ee7bb67b1bdfc7ccb.jpg",
     "index.html": "/makaan/index.html",
-    "main.031e87d0.css.map": "/makaan/static/css/main.031e87d0.css.map",
-    "main.b358f1e2.js.map": "/makaan/static/js/main.b358f1e2.js.map"
+    "main.9ea60d78.css.map": "/makaan/static/css/main.9ea60d78.css.map",
+    "main.25ae972e.js.map": "/makaan/static/js/main.25ae972e.js.map"
   },
   "entrypoints": [
-    "static/css/main.031e87d0.css",
-    "static/js/main.b358f1e2.js"
+    "static/css/main.9ea60d78.css",
+    "static/js/main.25ae972e.js"
   ]
 }
