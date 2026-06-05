@@ -44,10 +44,6 @@
 
 .btn {
   margin-left: 170px;
-  /* gap: 70px; */
-  /* padding-right: 20px; */
-  /* width: 150px;
-  height: 50px; */
 }
 
 .rightside-2 img {
@@ -395,8 +391,6 @@
 }
 
 
-/*  */
-
 .agent-card img {
   border-radius: 8px 8px 0 0;
   height: auto;
@@ -431,7 +425,6 @@
 }
 
 
-/*  */
 .testimonial-wrapper {
   /* background: #f0fff9; */
   /* background-color: whitesmoke; */
@@ -461,7 +454,6 @@
   margin-left: 20px;
 }
 
-/*  */
 .notfound-wrapper {
   margin-top: 50px;
   justify-content: center;
@@ -486,7 +478,6 @@
 }
 
 
-/*  */
 .footer {
   background: #0b2c4d;
   color: #b0c4d8;
